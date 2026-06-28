@@ -1,15 +1,16 @@
 {
   "name": "ruth-admin-api",
   "version": "1.0.0",
+  "description": "Ruth Istanbul admin API",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "...",
-    "cors": "...",
-    "dotenv": "...",
-    "express": "..."
+    "@supabase/supabase-js": "^2.50.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
   }
 }
